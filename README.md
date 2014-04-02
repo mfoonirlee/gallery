@@ -1,4 +1,4 @@
 gallery
 =======
 
-test css3 help friend to build a web article gallery
+experience css3 help a friend to build a web artistic gallery
