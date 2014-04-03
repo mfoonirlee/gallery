@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<script type="text/javascript" src="js/imgShow.js"></script>
+		<script type="text/javascript" src="js/flower.js"></script>
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/flower.css">
+	</head>
+	<body>
+		<div id="titleContent" class="title-content">	
+			<div id="title">
+				<div id="head"></div>
+				<span class="spanAnimate1 span-title1">欢迎来到</span>
+				<span class="spanAnimate2 span-title2">XXX的绘图坊</span>
+			</div>
+			<div class="enter" onclick="start();">ENTER</div>
+		</div>
+		<div id="stage" class="content">
+			<div id="wall" class="wall-div">
+				<span>XXX的绘图坊</span>
+			</div>
+			<div id="watcher" class="pic-watcher">
+				<div><img id="mainWatcher" class="watch-img" src=""></img></div>
+				<ul class="menu">
+					<li onclick="returnWall();">返回(Esc)</li>
+					<li onclick="prevPage();">上一张(←)</li>
+					<li onclick="nextPage();">下一张(→)</li>
+				</ul>
+			</div>	
+		</div>
+	</body>
+</html>
