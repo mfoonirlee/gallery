@@ -179,7 +179,7 @@ ready(function(){
 	//图片数量
 	var CONST_SIZE = 63,imgArr = [];
 	for(var i = 1; i <= CONST_SIZE; i++){
-		imgArr.push("image/sensen/1 (" + i + ").jpg");
+		imgArr.push("image/works/1 (" + i + ").jpg");
 	}
 	var imgs = singleImg(imgArr);
 	
